@@ -1,4 +1,6 @@
 'use client';
+export const dynamic = 'force-dynamic';
+
 import { useState, useEffect, useMemo } from 'react';
 import { Plus, Search, Pencil, Trash2, AlertTriangle, CheckCircle2, Clock, Bell, CalendarClock, RefreshCw } from 'lucide-react';
 import { supabase } from '@/lib/supabaseClient';
